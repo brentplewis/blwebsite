@@ -1,4 +1,4 @@
-baseURL: "https://brent-lewis-website.netlify.app/"
+baseURL: https://brent-lewis-website.netlify.app/
 languageCode: en-us
 title: Forty
 theme: forty
@@ -116,3 +116,9 @@ params:
       amet pharetra et feugiat tempus."
     title: Massa libero
     url: blogs
+    
+markup: 
+  goldmark: 
+    renderer: 
+      unsafe: true
+
